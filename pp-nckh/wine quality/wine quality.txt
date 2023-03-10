@@ -1,0 +1,30 @@
+From: https://archive.ics.uci.edu/ml/index.php
+Dataset link:
+https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/
+	+ Red wine: 
+https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv
+	+ White wine:
+https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv
+
+Origin code:
+https://spiralizing.github.io/DSEntries/WineQuality/?utm_campaign=Data_Elixir&utm_source=Data_Elixir_427
+https://github.com/spiralizing/WebsiteNotebooks/blob/main/Python/Wine.ipynb
+
+### More info
+Input variables (based on physicochemical tests):
+   1 - fixed acidity
+   2 - volatile acidity
+   3 - citric acid
+   4 - residual sugar
+   5 - chlorides
+   6 - free sulfur dioxide
+   7 - total sulfur dioxide
+   8 - density
+   9 - pH
+   10 - sulphates
+   11 - alcohol
+   Output variable (based on sensory data): 
+   12 - quality (score between 0 and 10)
+
+Number of Instances: red wine - 1599; white wine - 4898. 
+
