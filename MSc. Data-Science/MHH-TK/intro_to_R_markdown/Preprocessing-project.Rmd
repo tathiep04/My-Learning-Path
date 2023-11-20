@@ -1,0 +1,99 @@
+---
+title: "R-markdown learning"
+author: "Hiep T.Bui"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  html_document:
+    #code_foding: hide
+    theme: united
+    highlight: textmate
+    toc: True
+    number_section: true
+    toc_depth: 4 ## ading subfolder
+    toc_float:
+      collapsed: false
+      
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Preprocessing
+
+## Choosing the data
+
+This task will use the penguins dataset. Let's working with it
+
+The source is taking from [OpenML](https://www.openml.org/search?type=data&status=active&id=43347)
+To catching anything, you need to
+
+> quote out like this
+
+to make an empty line, simply add '<br>' like this
+<br><br><br>
+Penguins is cute!
+
+## Loading the dataset, reading data
+
+First, I would like to:
+
+1. Load *packages*  
+2. Read the data  
+3. **Remove missing values**  
+<br>
+To add an images, you use: <br>
+![Penguin species](C:/Users/hiepa/OneDrive/Documents/AAA-SELFSPACE/MHH-TK/penguin-species.png){width=60%}
+
+```{r}
+library(tidyverse)
+
+# load the dataset from OpenML Library
+d <- OpenML::getOMLDataSet(data.id = 43347)
+# convert the OpenML object to a tibble (enhanced data.frame)
+penguins <- d %>% dplyr::as_tibble()
+#skimmed_penguins <- skimr::skim(penguins)
+head(penguins)
+```
+
+```{r warning=FALSE, message=FALSE}
+# Run again the code abow
+library(tidyverse)
+head(penguins)
+```
+How the output and the code itself shows up in the document also be modified:  
+
+- 'echo = FALSE': only output is visible  
+- 'include = FALSE' hides both output and code  
+- 'warning = FALSE' to suppress warning message (also works with errors and message)  
+- 'eval = FALSE': code is not run
+
+## Removing missing data
+```{r}
+# Before removing na_values
+nrow(penguins)
+# After removing
+penguins <- penguins %>% drop_na()
+nrow(penguins)
+```
+Or we can write like this. I had removed missing values, so the data now only has `r nrow(penguins)` rows.
+
+
+
+## Descriptive statistics
+The mean bill length is `r mean(penguins$bill_length_mm)` mm.
+<br>
+The bill depth is between `r min(penguins$bill_depth_mm)` and `r max(penguins$bill_depth_mm)`
+
+# Graphs
+
+Some ideas for the graphs:  
+
+* weight by flipper length  
+  + for the entire data  
+  + separately for each species  
+  + additionally by sex  
+* flipper and bill length
+<br>
+
+## 
