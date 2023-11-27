@@ -1,0 +1,13 @@
+{
+  "listingMap": {
+    "activities.qmd": [
+      "activities"
+    ],
+    "hub.qmd": [
+      "learning-hub"
+    ],
+    "projects.qmd": [
+      "posts"
+    ]
+  }
+}

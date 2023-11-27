@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: docs
+  
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
+  
+website:
+  title: "Hiep Tat Bui"
+  favicon: "images/H_Logo3.png"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: My-learning-hub
+        href: hub.qmd
+      - text: Activities
+        href: activities.qmd
+      - text: Resume
+        href: resume.qmd
+    right:
+      #- about.qmd
+      - icon: envelope
+        href: mailto:tathiep04@gmail.com
+      - icon: github
+        href: https://github.com/tathiep04/
+      - icon: facebook
+        href: https://www.facebook.com/hiep.buitat.5
+        
+  search: 
+    location: navbar
+    type: textbox
+  page-footer:
+    center: |
+      2023 Hiep T. Bui
+    left: |
+      Made with [Quarto](https://quarto.org/)
+    right: |
+      [Github Code Repo](https://github.com/tathiep04)
+    background: "#181818"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: [cosmo, theme_dark_custom.scss]
+    code-link: true
+    code-fold: show
+    #code-tools: true
+    highlight-style: github
+
+
+

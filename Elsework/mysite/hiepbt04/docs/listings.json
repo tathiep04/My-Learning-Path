@@ -1,0 +1,20 @@
+[
+  {
+    "listing": "/activities.html",
+    "items": [
+      "/activities/index.html"
+    ]
+  },
+  {
+    "listing": "/hub.html",
+    "items": [
+      "/learning-hub/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/posts/welcome/index.html"
+    ]
+  }
+]

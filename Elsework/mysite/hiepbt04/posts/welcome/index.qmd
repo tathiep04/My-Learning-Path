@@ -1,0 +1,10 @@
+---
+title: "Data Preprocessing with R"
+author: "Hiep Tat Bui"
+date: "2023-11-25"
+categories: [R, Preprocessing, code]
+---
+
+This is the first post, I had written this by Quarto. Pre-processing is quitely an art for me; me and some of my friends has decided to write it in R-markdown, this is a mini version that recap the technique to pre-processing data with the help of R. Here is the [link](https://tathiep04.github.io/outcome/project.html) to read it!
+
+![](thumbnail.jpg)

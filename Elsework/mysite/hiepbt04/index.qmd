@@ -1,0 +1,27 @@
+---
+title: "Hiep Tat Bui"
+image: images/Hiep.jpg
+about:  
+  template: jolla
+  image-width: 8em
+  image-shape: rectangle
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/tathiep04/
+    - icon: github
+      text: Github
+      href: https://github.com/tathiep04/
+    - icon: envelope
+      text: Contact me
+      href: mailto:tathiep04@gmail.com
+---
+Hi, I am Hiep, I have extensive background working with varied data sets and using advanced analytics to make informed decisions, I also like to deal with data visualization, machine learning and dive in deep learning with Natural Language Processing field, especially in integrate between Large Language Model and Knowledge Graph.
+<br><br/>
+I like to working in R and Python. Recently, I expanded my skill set include topics like Quarto. My aiming object is to become knowing various technique in Data Science.
+
+
+
+
+
+

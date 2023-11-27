@@ -1,0 +1,38 @@
+{
+  "about.qmd": {
+    "about.html": "aaba0684"
+  },
+  "index.qmd": {
+    "index.html": "10eefc77"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "794c996d"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "0d5f58a2"
+  },
+  "resume.qmd": {
+    "resume.html": "215c8a39"
+  },
+  "projects.qmd": {
+    "projects.html": "ca375888"
+  },
+  "posts/post-with-plot/index.qmd": {
+    "index.html": "a38c4d80"
+  },
+  "My-learning-hub.qmd": {
+    "My-learning-hub.html": "6653642d"
+  },
+  "learning-hub/index.qmd": {
+    "index.html": "7c86e4c7"
+  },
+  "hub.qmd": {
+    "hub.html": "3084ee82"
+  },
+  "activities/index.qmd": {
+    "index.html": "f7a652f8"
+  },
+  "activities.qmd": {
+    "activities.html": "a75f6f18"
+  }
+}
